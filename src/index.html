@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://fonts.cdnfonts.com/css/calculator" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+
+    <title>REVOL</title>
+    <style>
+      @import url("http://fonts.cdnfonts.com/css/calculator");
+    </style>
+    <style>
+      .list-item {
+        opacity: 0;
+        animation: fade-in 300ms ease forwards;
+      }
+
+      .list-item:nth-child(2) {
+        animation-delay: 100ms;
+      }
+
+      .list-item:nth-child(3) {
+        animation-delay: 200ms;
+      }
+
+      .list-item:nth-child(4) {
+        animation-delay: 300ms;
+      }
+
+      @keyframes fade-in {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body class="grid place-items-center p-8">
+    <section>
+      <div>
+        <ul class="list">
+          <li class="list-item">A</li>
+          <li class="list-item">B</li>
+          <li class="list-item">C</li>
+          <li class="list-item">D</li>
+        </ul>
+      </div>
+    </section>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
