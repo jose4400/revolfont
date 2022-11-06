@@ -14,19 +14,22 @@
     <style>
       .list-item {
         opacity: 0;
-        animation: fade-in 300ms ease forwards;
+        animation: fade-in 400ms ease forwards;
       }
 
       .list-item:nth-child(2) {
-        animation-delay: 100ms;
-      }
-
-      .list-item:nth-child(3) {
         animation-delay: 200ms;
       }
 
+      .list-item:nth-child(3) {
+        animation-delay: 400ms;
+      }
+
       .list-item:nth-child(4) {
-        animation-delay: 300ms;
+        animation-delay: 600ms;
+      }
+      .list-item:nth-child(5) {
+        animation-delay: 800ms;
       }
 
       @keyframes fade-in {
@@ -36,15 +39,77 @@
       }
     </style>
   </head>
-  <body class="grid place-items-center p-8">
-    <section>
-      <div>
-        <ul class="list">
-          <li class="list-item">A</li>
-          <li class="list-item">B</li>
-          <li class="list-item">C</li>
-          <li class="list-item">D</li>
+  <body class="grid place-items-center bg-red-900 p-8">
+    <section class="mt-10 mb-52 bg-white">
+      <div class="flex flex-row border-4 border-red-900">
+        <ul class="list m-16">
+          <li class="list-item">
+            <img
+              class="mb-4 h-24 w-24"
+              src="https://raw.githubusercontent.com/jose4400/revolfont/a12afd1777a93b659ab968bc275e93eb6ef01e5f/R%20%5BConverted%5D.svg"
+              alt=""
+            />
+          </li>
+          <li class="list-item">
+            <img
+              class="mb-4 h-20 w-20"
+              src="https://raw.githubusercontent.com/jose4400/revolfont/a12afd1777a93b659ab968bc275e93eb6ef01e5f/E%20%5BConverted%5D.svg"
+              alt=""
+            />
+          </li>
+          <li class="list-item">
+            <img
+              class="mb-4 ml-1 h-20 w-20"
+              src="https://raw.githubusercontent.com/jose4400/revolfont/a12afd1777a93b659ab968bc275e93eb6ef01e5f/V%20%5BConverted%5D.svg"
+              alt=""
+            />
+          </li>
+          <li class="list-item">
+            <img
+              class="mb-4 h-20 w-20"
+              src="https://raw.githubusercontent.com/jose4400/revolfont/a12afd1777a93b659ab968bc275e93eb6ef01e5f/O%20%5BConverted%5D.svg"
+              alt=""
+            />
+          </li>
+          <li class="list-item">
+            <img
+              class="mb-4 h-20 w-20"
+              src="https://raw.githubusercontent.com/jose4400/revolfont/a12afd1777a93b659ab968bc275e93eb6ef01e5f/L%20%5BConverted%5D.svg"
+              alt=""
+            />
+          </li>
         </ul>
+      </div>
+    </section>
+    <section class="bg-white">
+      <div class="max-w-xxl mb-40 bg-amber-600 bg-opacity-50 p-20 text-base">
+        <video
+          src="https://github.com/jose4400/revolfont/blob/master/how%20to%20.mp4?raw=true"
+        ></video>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id<br />
+          est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur<br /><br />
+          sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum.vLorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </p>
       </div>
     </section>
 
